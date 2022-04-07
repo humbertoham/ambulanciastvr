@@ -5,6 +5,10 @@ export const Wrapper = styled.div`
   box-sizing: border-box;
 
   background: var(--brown);
+  @media screen and (max-width: 720px) {
+    padding: 0px;
+    padding-bottom: 75px;
+  }
 `;
 
 export const Content = styled.div`

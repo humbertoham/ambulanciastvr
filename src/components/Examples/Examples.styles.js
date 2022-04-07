@@ -36,7 +36,7 @@ export const CardWrapper = styled.div`
   padding: 0 0 32px;
   margin: 0px 24px 24px;
   background: var(--white);
-  width: 800px;
+  width: 600px;
   z-index: 1;
 `;
 export const Text = styled.div`
