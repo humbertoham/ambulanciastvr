@@ -16,7 +16,12 @@ const About = () => {
       <Content data-aos="fade-right">
         <Text>
           <h1>¿Quiénes somos?</h1>
-          <p>Falta esta información</p>
+          <p>
+            Somos una empresa de servicios de atención pre hospitalaria de gran
+            calidad, eficiencia y calidez humana, nos especializamos en el
+            traslado de los pacientes se realiza de manera responsable, segura y
+            siempre oportuna.
+          </p>
         </Text>
         <MapC className="right" data-aos="fade-up">
           <Map src={MapP} />
@@ -29,7 +34,11 @@ const About = () => {
         </MapC>
         <Text>
           <h1>Misión</h1>
-          <p>Falta esta información</p>
+          <p>
+            Contar con el mejor servicio al cliente en traslados, rescates,
+            atención médica y brindar la mejor confianza y seguridad a los
+            pacientes en nuestro cuidado.
+          </p>
         </Text>
         <MapC className="db" data-aos="fade-up">
           <Map src={Mision} />
@@ -38,7 +47,11 @@ const About = () => {
       <Content data-aos="fade-right">
         <Text>
           <h1>¿Por qué elegirnos?</h1>
-          <p>Falta esta información</p>
+          <p>
+            Somos la mejor empresa en cuidados de traslados, rescates y atención
+            médica de Chihuahua, contamos con el mejor equipo médico y el
+            personal más capacitado de la ciudad.
+          </p>
         </Text>
         <MapC className="right" data-aos="fade-up">
           <Map src={Vision} />

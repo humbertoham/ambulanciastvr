@@ -5,6 +5,7 @@ import About from "./About";
 import Section from "./Section";
 import Sec from "./Sec";
 import Examples from "./Examples";
+import Exa from "./Exa";
 import Work from "./Work";
 import Contact from "./Contact";
 import Map from "./Map";
@@ -13,6 +14,7 @@ const Home = () => {
     <>
       <Banner />
       <About />
+      <Exa />
       <Section />
       <Work />
       <Examples />

@@ -44,7 +44,11 @@ const Work = () => {
           </CardHeader>
           <CardBody>
             <CardFieldset>
-              <CardOptionsNote>Falta información</CardOptionsNote>
+              <CardOptionsNote>
+                Trasladamos a los pacientes tomando las medidas necesarias para
+                la seguridad de este, y con la atención médica adecuada para
+                trasladarlos a dónde sea según sus necesidades.
+              </CardOptionsNote>
             </CardFieldset>
           </CardBody>
         </CardWrapper>
@@ -56,7 +60,10 @@ const Work = () => {
           </CardHeader>
           <CardBody>
             <CardFieldset>
-              <CardOptionsNote>Falta información</CardOptionsNote>
+              <CardOptionsNote>
+                Cubrimos eventos o espectáculos que requieren de logística
+                médica, previniendo cualquier emergencia.
+              </CardOptionsNote>
             </CardFieldset>
           </CardBody>
         </CardWrapper>
@@ -67,7 +74,12 @@ const Work = () => {
           </CardHeader>
           <CardBody>
             <CardFieldset>
-              <CardOptionsNote>Falta información</CardOptionsNote>
+              <CardOptionsNote>
+                Durante el traspaso del cuidado en el hospital al hogar, las
+                familias contarán con una red de apoyo, que incluye al equipo de
+                profesionales de la salud, como médicos, enfermeros, terapeutas,
+                cuidadores y proveedores de equipos médicos.
+              </CardOptionsNote>
             </CardFieldset>
           </CardBody>
         </CardWrapper>
@@ -79,7 +91,10 @@ const Work = () => {
           </CardHeader>
           <CardBody>
             <CardFieldset>
-              <CardOptionsNote>Falta información</CardOptionsNote>
+              <CardOptionsNote>
+                Primeros auxilios, comité de crisis, evacuación, incendios,
+                materiales peligrosos, higiene y seguridad
+              </CardOptionsNote>
             </CardFieldset>
           </CardBody>
         </CardWrapper>
@@ -92,7 +107,11 @@ const Work = () => {
           </CardHeader>
           <CardBody>
             <CardFieldset>
-              <CardOptionsNote>Falta información</CardOptionsNote>
+              <CardOptionsNote>
+                Le ofrecemos tanques de oxígeno con diferentes capacidades,
+                ligeros y prácticos. Nuestros tanques son económicos,
+                recargables y seguros.
+              </CardOptionsNote>
             </CardFieldset>
           </CardBody>
         </CardWrapper>
@@ -105,7 +124,11 @@ const Work = () => {
           </CardHeader>
           <CardBody>
             <CardFieldset>
-              <CardOptionsNote>Falta información</CardOptionsNote>
+              <CardOptionsNote>
+                Tomamos las medidas necesarias para traslados de pacientes con
+                COVID-19, en los vehículos de transporte se optimizamos las
+                estrategias de ventilación para reducir el riesgo de exposición.
+              </CardOptionsNote>
             </CardFieldset>
           </CardBody>
         </CardWrapper>
@@ -116,7 +139,13 @@ const Work = () => {
           </CardHeader>
           <CardBody>
             <CardFieldset>
-              <CardOptionsNote>Falta información</CardOptionsNote>
+              <CardOptionsNote>
+                Amublancias TVR acude al lugar donde ocurre la emergencia con
+                Unidades de Terapia Intensiva Móvil, equipadas con avanzada
+                tecnología en equipo médico, más de 100 medicamentos y la
+                atención de Médicos Especialistas en terapia intensiva y
+                urgenciología, Paramédicos y Enfermeros altamente capacitados.
+              </CardOptionsNote>
             </CardFieldset>
           </CardBody>
         </CardWrapper>

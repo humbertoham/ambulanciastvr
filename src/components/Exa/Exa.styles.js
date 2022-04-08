@@ -1,53 +1,50 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  padding-bottom: 64px;
+  background-color: #ffffff;
 `;
 
 export const Content = styled.div`
   padding-top: 20px;
   max-width: var(--maxWidth);
   margin: 0 auto;
-  font-family: "Avenir Light", serif;
+
   text-align: center;
   h1 {
-    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fontSuperBig);
     margin: 0;
-    font-weight: 100;
-    color: var(--black);
+    color: var(--brown);
     @media screen and (max-width: 720px) {
-      font-size: 2rem;
+      font-size: var(--fontBig);
     }
   }
   p {
+    font-family: "Montserrat", sans-serif;
     padding: 15px;
-
-    font-weight: 100;
-    font-size: 2rem;
-    font-family: "Avenir Light", serif;
+    font-weight: 600;
+    font-size: var(--fontBig);
     @media screen and (max-width: 720px) {
       font-size: var(--fontMed);
-      font-size: 1rem;
     }
   }
 `;
 export const CardWrapper = styled.div`
   overflow: hidden;
   padding: 0 0 32px;
-  margin: 24px;
+  margin: 0px 24px 24px;
   background: var(--white);
   width: 800px;
-  justify-content: center;
   z-index: 1;
 `;
 export const Text = styled.div`
   margin: auto;
   width: 50%;
   padding: 10px;
-  font-family: "Avenir Light", serif;
+
   h1 {
-    font-size: 1rem;
-    font-weight: 100;
+    font-size: 3rem;
+    font-weight: 700;
     color: var(--black);
     text-align: center;
     @media screen and (max-width: 720px) {
@@ -66,32 +63,7 @@ export const Text = styled.div`
     max-width: 100%;
   }
 `;
-export const Message = styled.a`
-  display: block;
-  margin: 80px auto;
-  width: 250px;
-  padding: 12px 0;
-  font-family: inherit;
-  font-size: var(--fontMed);
-  font-weight: 700;
-  color: var(--yellow);
-  border: 2px solid var(--yellow);
-  border-radius: 35px;
 
-  cursor: pointer;
-  transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
-  text-decoration: none;
-  text-align: center;
-  font-family: "Avenir Light", serif;
-  &:hover {
-    background-color: var(--yellow);
-    color: var(--white);
-  }
-  @media (max-width: 768px) {
-    font-size: var(--fontSmall);
-    width: 200px;
-  }
-`;
 export const CardHeader = styled.header`
   padding-top: 32px;
   padding-bottom: 32px;
@@ -99,12 +71,8 @@ export const CardHeader = styled.header`
 export const CardHeading = styled.h1`
   text-align: center;
   color: var(--black);
-  font-weight: 100;
-  font-size: 2rem;
-  font-family: "Avenir Light", serif;
-  @media (max-width: 768px) {
-    font-size: 1.5rem;
-  }
+  font-size: var(--fontBig);
+  font-family: "Poppins", sans-serif;
 `;
 
 export const CardBody = styled.div`
@@ -134,11 +102,11 @@ export const CardFieldset = styled.fieldset`
 export const CardOptionsNote = styled.small`
   padding-top: 8px;
   display: block;
-  font-family: "Avenir Light", serif;
-  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  max-width: 400px;
   font-size: var(--fontMed);
-  color: #666;
-  text-align: center;
+  text-align: left;
+  margin: auto;
 `;
 
 export const Page = styled.img`
@@ -154,19 +122,4 @@ export const Page = styled.img`
 
 export const LogoN = styled.img`
   width: 50px;
-`;
-export const Men = styled.a`
-  font-weight: 700;
-  display: block;
-  margin: 20px auto;
-  width: 300px;
-  padding: 12px 0;
-  font-size: var(--fontMed);
-  text-decoration: none;
-  color: var(--black);
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  :hover {
-    text-decoration: underline;
-  }
 `;

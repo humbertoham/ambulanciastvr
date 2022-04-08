@@ -29,6 +29,12 @@ const Contact = () => {
             (614) 155 69-04
           </h1>
         </Con>
+        <Con>
+          <h1>
+            <FontAwesomeIcon className="whats" size="2x" icon={faWhatsapp} />{" "}
+            (614) 468 43-16
+          </h1>
+        </Con>
         <Con className="pt">
           <h1>
             <FontAwesomeIcon className="pin" size="2x" icon={faMapMarkerAlt} />{" "}
