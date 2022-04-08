@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
     --fontBig: 1.5rem;
     --fontMed: 1.2rem;
     --fontSmall: 1rem;
-    --swiper-theme-color:#450920 ;
+    --swiper-theme-color:#0202f8 ;
     --swiper-navigation-size: 2rem;
     scroll-behavior: smooth;
 }
@@ -536,7 +536,7 @@ margin-right: 10px;
 }
 .swiper-pagination-bullet {
     opacity: 0.5;
-    background-color: var(--sienna);
+    background-color: var(----blue);
 }
 
 .swiper-pagination-bullet-active {
