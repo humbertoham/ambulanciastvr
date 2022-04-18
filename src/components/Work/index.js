@@ -141,10 +141,9 @@ const Work = () => {
             <CardFieldset>
               <CardOptionsNote>
                 Amublancias TVR acude al lugar donde ocurre la emergencia con
-                Unidades de Terapia Intensiva Móvil, equipadas con avanzada
-                tecnología en equipo médico, más de 100 medicamentos y la
-                atención de Médicos Especialistas en terapia intensiva y
-                urgenciología, Paramédicos y Enfermeros altamente capacitados.
+                Unidades básicas o de Terapia Intensiva Móvil, equipadas con
+                avanzada tecnología en equipo médico y la atención de Médicos
+                Especialistas, Paramédicos y Enfermeros altamente capacitados
               </CardOptionsNote>
             </CardFieldset>
           </CardBody>

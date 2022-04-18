@@ -9,6 +9,7 @@ import Exa from "./Exa";
 import Work from "./Work";
 import Contact from "./Contact";
 import Map from "./Map";
+import Comps from "./Comps";
 const Home = () => {
   return (
     <>
@@ -19,6 +20,7 @@ const Home = () => {
       <Work />
       <Examples />
       <Sec />
+      <Comps />
       <Contact />
       <Map />
     </>
